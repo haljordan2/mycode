@@ -38,3 +38,5 @@ print(crayons.cyan('Giggity!', bold=True))
 
 #print name in 2 different colors.
 print('{} {}'.format(crayons.green('Hal', bold=True), crayons.cyan('Jordan', bold=True)))
+
+print(crayons.green('Hal', bold=True) + crayons.cyan('Jordan', bold=True)
